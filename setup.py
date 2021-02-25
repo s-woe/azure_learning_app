@@ -6,6 +6,5 @@ setup(name='azure_learning',
       author='Simon Wölzmüller',
       author_email='s.woelzmueller@stemmer-imaging.com',
       url='https://github.com/s-woe/azure_learning_app.git',
-      packages=["azure_learning"],
-      requires=["numpy"]
-     )
+      packages=["azure_learning"]
+)
