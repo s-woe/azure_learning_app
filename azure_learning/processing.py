@@ -1,4 +1,4 @@
 import numpy as np
 
-def process(data: np.ndarray) -> int:
-    return sum(data.flatten())
+def process(data: int) -> int:
+    return 2*data
