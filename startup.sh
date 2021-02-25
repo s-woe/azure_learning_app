@@ -1,2 +1,1 @@
-pip install -r requirements.txt
-uvicorn --app-dir azure_learning fastapi_stemmer:app --reload
+pip install -r requirements.txt && python -m uvicorn --app-dir azure_learning fastapi_stemmer:app --reload
