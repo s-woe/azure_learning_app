@@ -5,9 +5,9 @@ app = FastAPI()
 
 
 @app.get("/process/{input}")
-async def read_item(input: str):
+async def read_item(input : int):
     result=process(input)
-    return {"Result": result}
+    return {"Result": str(result)}
 
 
 @app.get("/")
